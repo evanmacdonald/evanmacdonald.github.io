@@ -1,0 +1,9 @@
+img {
+    max-width: 300px;
+    height: auto;
+}
+
+.container {
+    margin: 20px;
+    padding: 10px;
+}
