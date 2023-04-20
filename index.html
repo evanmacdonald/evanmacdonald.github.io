@@ -1,94 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Product Management</title>
-	<style>
-		body {
-			font-family: Arial, sans-serif;
-			background-color: #e6f2ff;
-			margin: 0;
-			padding: 0;
+	<title>JavaScript Example</title>
+	<script>
+		function greet() {
+			var name = document.getElementById("name").value;
+			alert("Hello, " + name + "!");
 		}
-		header {
-			background-color: #1c4f6e;
-			color: #ffffff;
-			padding: 20px;
-			text-align: center;
-		}
-		h1 {
-			font-size: 3em;
-			margin: 0;
-		}
-		nav {
-			background-color: #337ab7;
-			color: #ffffff;
-			padding: 10px;
-		}
-		nav ul {
-			list-style: none;
-			margin: 0;
-			padding: 0;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
-		nav li {
-			margin: 0 10px;
-		}
-		nav a {
-			color: #ffffff;
-			text-decoration: none;
-			font-size: 1.2em;
-			padding: 10px;
-		}
-		nav a:hover {
-			background-color: #ffffff;
-			color: #337ab7;
-			border-radius: 5px;
-		}
-		main {
-			margin: 20px;
-			padding: 20px;
-			background-color: #ffffff;
-			box-shadow: 0px 0px 10px #999999;
-		}
-		h2 {
-			font-size: 2em;
-			margin-top: 0;
-		}
-		p {
-			font-size: 1.2em;
-			line-height: 1.5;
-		}
-	</style>
+	</script>
 </head>
 <body>
-	<header>
-		<h1>Product Management</h1>
-	</header>
-
-	<nav>
-		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Products</a></li>
-			<li><a href="#">Services</a></li>
-			<li><a href="#">Contact</a></li>
-		</ul>
-	</nav>
-
-	<main>
-		<h2>What is Product Management?</h2>
-		<p>Product management is an organizational function that involves planning, forecasting, and marketing products at all stages of the product lifecycle. It involves a combination of market research, product development, and marketing to ensure that a product meets customer needs and is successful in the marketplace.</p>
-
-		<h2>Why is Product Management Important?</h2>
-		<p>Product management is important because it helps organizations develop products that meet customer needs and are successful in the marketplace. By conducting market research and developing a product roadmap, product managers can ensure that their products are aligned with customer needs and are profitable for the organization.</p>
-
-		<h2>Our Products</h2>
-		<p>We offer a range of products that are designed to meet the needs of our customers. Our products are innovative, high-quality, and affordable. From software to hardware, we have the products you need to succeed.</p>
-	</main>
-
-	<footer>
-		<p>Copyright © 2023 - Product Management</p>
-	</footer>
+	<h1>JavaScript Example</h1>
+	<p>Enter your name:</p>
+	<input type="text" id="name">
+	<button onclick="greet()">Greet</button>
 </body>
 </html>
