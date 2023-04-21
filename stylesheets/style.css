@@ -8,6 +8,11 @@ img {
     padding: 10px;
 }
 
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #e6f2ff;
@@ -75,3 +80,26 @@ button {
     font-size: 16px;
     cursor: pointer;
 }
+
+input {
+    padding: 10px 20px;
+    background-color: #b4b7b8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.box {
+    width: 190px;
+    height: 60px;
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: left;
+    padding-left: 10px;
+    align-items: center;
+  }
