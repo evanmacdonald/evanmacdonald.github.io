@@ -23,4 +23,5 @@ document.getElementById("button").onclick = function getMaxTemp(){
             dataContainer2.appendChild(dataElement2); 
         })
         .catch(error => console.log('error', error));
+
 }
